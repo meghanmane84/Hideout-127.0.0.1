@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-image: url('./datathon_2.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        div {
+            margin: 10px;
+            flex: 0 0 100%; /* Force each div to take full width */
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        #predictButtonContainer {
+            flex: 0 0 100%; /* Button takes full width on its own line */
+        }
+
+        #imageContainer {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5%; /* Add rounded borders */
+            border: 5px solid #fff; /* Add a border for better visibility */
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="color: antiquewhite;" >Rain Prediction</h1>
+
+    <form>
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+
+        <div>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+        </div>
+
+        <div id="predictButtonContainer">
+            <button type="button" id="predictButton" onclick="predict()">Predict</button>
+        </div>
+    </form>
+
+    <div id="imageContainer">
+        <!-- Image will be displayed here -->
+    </div>
+
+    <script>
+        function predict() {
+            // Add your prediction logic here
+            // Update the imageContainer accordingly
+            document.getElementById('imageContainer').innerHTML = '<img src="./datathon_2.jpg" alt="Prediction Image">';
+        }
+    </script>
+
+</body>
+</html>
