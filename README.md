@@ -1,4 +1,4 @@
-#### RainMap India
+### RainMap India
 
 Overview:
 RainMap India provides real-time visualization of rainfall conditions across India. Utilizing AI techniques, it generates interactive maps illustrating current precipitation patterns.
