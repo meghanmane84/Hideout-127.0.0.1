@@ -1,5 +1,5 @@
-![Storm](https://github.com/meghanmane84/Hideout-127.0.0.1/Data/dp.jpg)
-
+![Storm](Data/dp.jpg)
+Data/dp.jpg
 ### RainMap India
 
 Overview:
