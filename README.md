@@ -1,5 +1,5 @@
 ![Storm](Data/dp.jpg)
-Data/dp.jpg
+
 ### RainMap India
 
 Overview:
